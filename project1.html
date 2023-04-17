@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="project1.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <div class="project-card">
+        <img src="fund1.jpg" alt="Project Image">
+        <h2 class="project-name">Project Name</h2>
+        <p class="project-description">This is a brief description of the project and what it aims to achieve. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus quam vitae magna laoreet sollicitudin. Fusce euismod odio ac velit efficitur, ut commodo elit facilisis.</p>
+        <div class="project-details">
+          <p class="investment-amount"><strong>Investment amount:</strong> $100,000</p>
+          <p class="project-status"><strong>Project status:</strong> In development</p>
+          <div>
+            <label for="slider"></label>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="50" disabled>
+            <span id="slider-value"></span>
+            <span id="slider-min"><p>1000</p></span>
+          </div>
+          
+          <script>
+            const sliderValue = document.getElementById("slider-value");
+            sliderValue.innerHTML = document.getElementById("slider").value; // Display the default slider value
+          </script>
+          
+          <p class="contact-info"><strong>Contact:</strong> John Doe, email@example.com</p>
+        </div>
+      </div>
+
+      
+
+    
+</body>
+</html>

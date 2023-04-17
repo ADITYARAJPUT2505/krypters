@@ -1,0 +1,209 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #0077cc;
+  }
+
+  
+
+
+
+
+
+
+
+
+  
+  .hero {
+    background-color: #f5f5f5;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .projects {
+    max-width: 1200px;
+    margin: 5rem auto;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
+  
+  .project-card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    margin: 1rem;
+  }
+  
+  .project-card p {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .investors {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+  }
+  
+  .investors h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062a3;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #f5f5f5;
+    color: #0077cc;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e1e1e1;
+    cursor: pointer;
+  }
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
